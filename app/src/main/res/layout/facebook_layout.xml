@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/facebook_background_color" >
+    
+	<LinearLayout 
+	    android:id="@+id/action_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/white"
+	    android:orientation="horizontal">
+	    
+	    <ImageView 
+	        android:id="@+id/posts"
+	        android:layout_width="35dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:scaleType="fitXY"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/news_feed_icon"/>
+	    
+	    <ImageView 
+	        android:id="@+id/notifications"
+	        android:layout_width="35dip"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitXY"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/notifications_icon"/>
+	    
+	    <ImageView
+	        android:id="@+id/friends"
+	        android:layout_width="35dip"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitXY"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/friends_icon"/>
+	    
+  	    	</LinearLayout>
+</LinearLayout>
